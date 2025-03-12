@@ -17,7 +17,6 @@ message CategoryResponse{
     Category category = 1;
 }
 
-//
 service CategoryService{
     rpc CreateCategory (CreateCategoryRequest) returns (CategoryResponse){}
 }
